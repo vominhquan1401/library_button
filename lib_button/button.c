@@ -4,15 +4,16 @@
 
 
 __weak void btn_pressing_callback(Button_Typedef *ButtonX){
-
+	
 }
 __weak void btn_press_short_callback(Button_Typedef *ButtonX){
 
 }
 __weak void btn_release_callback(Button_Typedef *ButtonX){
-
+	
 }
 __weak void btn_press_timeout_callback(Button_Typedef *ButtonX){
+	
 }
 	
 void button_handle(Button_Typedef *ButtonX){
@@ -54,5 +55,4 @@ void button_handle(Button_Typedef *ButtonX){
 void button_init(Button_Typedef *ButtonX,GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin){
 	ButtonX->GPIOx=GPIOx;
 	ButtonX->GPIO_Pin=GPIO_Pin;
-	
 }
